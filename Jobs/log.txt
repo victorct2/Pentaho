@@ -1,0 +1,56 @@
+ 
+ 
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=C:\Program Files\Java\jdk1.8.0_201
+DEBUG: _PENTAHO_JAVA=C:\Program Files\Java\jdk1.8.0_201\bin\java.exe
+
+C:\data-integration>"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe"  "-Xms2048m" "-Xmx4096m" "-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" "-Djava.library.path=libswt\win64;/bin" "-Djava.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed;C:\Program Files\Java\jdk1.8.0_201\lib\endorsed;C:\data-integration\system\karaf\lib\endorsed" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\launcher.jar -lib ..\libswt\win64  -main org.pentaho.di.kitchen.Kitchen -initialDir "C:\Material_PDI\ETLs\Jobs"\ /file:"C:\Material_PDI\ETLs\Jobs\main.kjb" /level:Basic 
+09:11:12,334 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+09:11:19,236 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 2 at C:\data-integration\.\system\karaf\caches\k ***
+***   itchen\data-1                                                         ***
+*** Karaf Port:8803                                                         ***
+*** OSGI Service Port:9052                                                  ***
+*******************************************************************************
+2022/06/22 09:11:20 - Kitchen - Logging is at level : Log básico
+2022/06/22 09:11:20 - Kitchen - Start of run.
+09:11:59,224 INFO  [DriverManager] Installing driver kars.
+09:11:59,232 INFO  [DriverManager] 0 drivers will be installed.
+09:11:59,233 INFO  [DriverManager] Finished installing drivers kars.
+2022/06/22 09:11:59 - main - Início da execução do job
+2022/06/22 09:11:59 - main - Starting entry [Dummy]
+2022/06/22 09:11:59 - main - Finished job entry [Dummy] (result=[true])
+2022/06/22 09:11:59 - main - Job execution finished
+2022/06/22 09:11:59 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2022/06/22 09:11:59 - Finished!
+2022/06/22 09:11:59 - Start=2022/06/22 09:11:59.523, Stop=2022/06/22 09:11:59.640
+2022/06/22 09:11:59 - Processing ended after 0 seconds.
+ 
+ 
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=C:\Program Files\Java\jdk1.8.0_201
+DEBUG: _PENTAHO_JAVA=C:\Program Files\Java\jdk1.8.0_201\bin\java.exe
+
+C:\data-integration>"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe"  "-Xms2048m" "-Xmx4096m" "-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" "-Djava.library.path=libswt\win64;/bin" "-Djava.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed;C:\Program Files\Java\jdk1.8.0_201\lib\endorsed;C:\data-integration\system\karaf\lib\endorsed" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\launcher.jar -lib ..\libswt\win64  -main org.pentaho.di.kitchen.Kitchen -initialDir "C:\Material_PDI\ETLs\Jobs"\ /file:"C:\Material_PDI\ETLs\Jobs\main.kjb" /level:Basic 
+09:12:40,791 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+09:12:47,031 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 2 at C:\data-integration\.\system\karaf\caches\k ***
+***   itchen\data-1                                                         ***
+*** Karaf Port:8803                                                         ***
+*** OSGI Service Port:9052                                                  ***
+*******************************************************************************
+2022/06/22 09:12:48 - Kitchen - Logging is at level : Log básico
+2022/06/22 09:12:48 - Kitchen - Start of run.
+09:12:52,883 INFO  [DriverManager] Installing driver kars.
+09:12:52,886 INFO  [DriverManager] 0 drivers will be installed.
+09:12:52,887 INFO  [DriverManager] Finished installing drivers kars.
+2022/06/22 09:12:57 - main - Início da execução do job
+2022/06/22 09:12:57 - main - Starting entry [Dummy]
+2022/06/22 09:12:57 - main - Finished job entry [Dummy] (result=[true])
+2022/06/22 09:12:57 - main - Job execution finished
+2022/06/22 09:12:57 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2022/06/22 09:12:57 - Finished!
+2022/06/22 09:12:57 - Start=2022/06/22 09:12:57.014, Stop=2022/06/22 09:12:57.078
+2022/06/22 09:12:57 - Processing ended after 0 seconds.
